@@ -40,7 +40,7 @@ const Intro = () => {
                 whileInView='visible'
                 variants={variants}
                 className='z-10'>
-                <Image width='700px' height='800px' layout='responsive' src='/images/introPic.svg' alt='phone images' />
+                <Image width='100%' height='100%' layout='responsive' src='/images/introPic.svg' alt='phone images' />
             </motion.div>
         </div>
     )

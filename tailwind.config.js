@@ -9,7 +9,8 @@ module.exports = {
         linear:'#33D35E',
         linear2: '#2AB6D9',
         eazyGray: '#9597A5',
-        bluew: '#2D314D'
+        bluew: '#2D314D',
+        greenn: '#30C88F'
       },
     },
   },

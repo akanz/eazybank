@@ -4,6 +4,7 @@ import Button from './Button'
 import ImageComp from './Image'
 import { motion } from 'framer-motion'
 import { variants } from './Intro'
+import Link from 'next/link'
 
 const Footer = () => {
     const info = ['about us', 'careers', 'contact', 'support', 'blog', 'privacy policy']
@@ -25,7 +26,12 @@ const Footer = () => {
 
                     </div>
                     <div className='grid lg:grid-cols-2 gap-3 lg:gap-6'>
-                        {info.map((info, i) => <div className='capitalize' key={i}>{info}</div>)}
+                        {info.map((info, i) => <div
+                            className='capitalize hover:text-greenn transform-gpu transition duration-300' key={i}>
+                            <Link href={info}>
+                                {info}
+                            </Link>
+                        </div>)}
                     </div>
                 </div>
 
